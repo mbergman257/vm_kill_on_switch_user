@@ -11,8 +11,8 @@ This is a simple PowerShell script that follows these primary steps:
 
 There are some extra commands in this script that log details, such as timestamp, processes found, and memory usage of those processes.
 
-## How does this script get run?
-This script is run by windows task scheduler, which is a windows job scheduling service that has been around since 1995. We will create a new task in the task scheduler that will run the PowerShell script above and be "triggered" on user log in and unlock.
+## When will this script run?
+This script is run by windows task scheduler, which is a windows job scheduling service that has been around since 1995. We will create a new task in the task scheduler that will run the PowerShell script above and be "triggered" on both user log-in and unlock.
 
 ## Instructions
 1. Save the `kill_vm_on_switch_user.ps1` file somewhere on the Windows PC.
