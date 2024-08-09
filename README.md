@@ -3,7 +3,7 @@ This is a PowerShell script to be used alongside Windows Task Scheduler in order
 
 ## What does this script do?
 This is a simple PowerShell script that follows these primary steps:
-1. Get all processes with `vmware-vmx` in the name. This is analogous to opening task manager and searching vmware-vmx.
+1. Get all processes with `VirtualBoxVM` in the name. This is analogous to opening task manager and searching VirtualBoxVM.
 2. Get the username of the current user that has just logged on.
 3. For each process found in step 1, get the username of the user that started it.
 4. Then, if the user in step 3 is different from the current user found in step 2, end the process.
